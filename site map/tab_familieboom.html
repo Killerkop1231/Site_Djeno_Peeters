@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <img class="picture" src="Finished.png">
+</head>
+<body>
+    <style>
+        body {
+          height: 700px;
+          font-size: 28px;
+          background: rgb(46,2,2);
+        background: linear-gradient(90deg, rgba(46,2,2,1) 0%, rgba(60,1,1,1) 27%, rgba(176,0,0,1) 75%, rgba(255,0,0,1) 100%);
+        }
+        
+
+        .picture{
+margin: right;
+float: right;
+height: 100px;
+width: 100px;
+
+}
+        p {
+            color:white;
+        
+        }
+        
+        ul {
+            color:white;
+          list-style-type: none;
+          padding: 15px;
+          overflow: hidden;
+          background: rgb(55,55,55);
+background: linear-gradient(230deg, rgba(55,55,55,1) 0%, rgba(25,25,25,1) 100%);
+          top: 0;
+        }
+        
+         li {            
+             float: left;
+                }
+                
+         li a {
+           display: block;
+           color: white;
+           text-align: center;
+           padding: 14px 16px;
+           text-decoration: none;
+                }
+                
+         li a:hover {
+           background-color: #111;
+           font-size: 35px;
+           transition: font-size .5s ease;
+            }
+        .active {
+          background-color: #4CAF50;
+        }
+        
+        h1 {
+            color:white;
+            text-align: center;
+            margin: auto;
+            width: 70%;
+            border-style: 2px solid  rgb(174, 143, 231);
+            border-radius: 12px;
+            padding: 15px;
+            background-color: rgb(99, 0, 0);
+        }
+        h3{
+            color:white;
+        }
+
+        .ar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  z-index: 1;
+  position: absolute;
+  background: rgb(55,55,55);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: red}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+      
+      /* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.total {
+  margin: center;
+  float: center;
+  
+  width: 100%;
+}
+
+
+div.total img {
+  width: 100%;
+  height: 480px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 600px;
+  padding: 5px;
+}
+
+.gallery1  {
+  animation: fadeIn 1s linear 1 backwards;
+  
+  margin: center;
+  border: 1px solid #ccc;
+  float: left;
+  width: 32%;
+}
+
+.gallery2  {
+  animation: fadeIn 1s linear 1 backwards;
+  animation-delay: 1s;
+  margin: center;
+  border: 1px solid #ccc;
+  float: left;
+  width: 32%;
+}
+
+.gallery3  {
+  animation: fadeIn 1s linear 1 backwards;
+  animation-delay: 2s;
+  margin: center;
+  border: 1px solid #ccc;
+  float: left;
+  width: 32%;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+</style>
+</head>
+<body>
+
+
+
+
+<h1>familie van Djeno</h1>
+
+<ul>
+    <li><a href=file:///C:/Users/djeno/Desktop/coding%20shit/site%20map/site%20over%20djeno%20peeters.html>Home</a></li>
+    <li><a href=file:///C:/Users/djeno/Desktop/coding%20shit/site%20map/spellen%20van%20steam/tab_spellen.html>Spellen</a></li>
+    <li><a href="file:///C:/Users/djeno/Desktop/coding%20shit/site%20map/hobby's/tab_hobby's_sporten.html">Sporten</a></li>
+    <li><a href="file:///C:/Users/djeno/Desktop/coding%20shit/site%20map/hobby's/tab_hobby's_gamen.html">Gamen</a></li>
+    <li><a href="file:///C:/Users/djeno/Desktop/coding%20shit/site%20map/hobby's/tab_hobby's_muziek.html">Muziek</a></li>
+    <li><a class="active" href=file:///C:/Users/djeno/Desktop/coding%20shit/site%20map/tab_familieboom.html>Stamboom</a></li>   
+    <li><a href=file:///C:/Users/djeno/Desktop/coding%20shit/site%20map/tab_CV.html >CV</a></li>
+    
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Challanges</a>
+        <div class="dropdown-content">
+          <a  href="file:///C:/Users/djeno/Desktop/coding%20shit/site%20map/verslagen/verslag%20challange%201.html">Challenge 1</a>
+          <a  href="file:///C:/Users/djeno/Desktop/coding%20shit/site%20map/verslagen/verslag%20challange%202.html">Challenge 2</a>
+          <a  href="file:///C:/Users/djeno/Desktop/coding%20shit/site%20map/verslagen/verslag%20challange%203.html">Challenge 3</a>
+        </div>
+      </li>
+
+  </ul>
+  
+<div class="total">
+  <div class="gallery1">
+      <img src="215035614_1197689707325829_6071480916625090092_n.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Djeno Peeters<br>
+                      maker en codeur van de site</div>
+  </div>
+  
+  <div class="gallery2">
+      <img src="117308673_10219165053850452_8196079515656323534_n.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Trevor Peeters<br> vader van djeno Peeters</div>
+  </div>
+  
+  <div class="gallery3">
+      <img src="74381710_789850258131095_8228536819440943104_n.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Marieke Brouwer<br>moeder van djeno Peeters</div>
+  </div>
+</div>
+
+
+    
+</body>
+</html>
